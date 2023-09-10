@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>User Profile</title>
+</head>
+<body class="profile-page">
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/profile/{{id}}">Profile</a></li>
+            <li><a href="/login">Logout</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Welcome to Your Profile</h1>
+        <div class="user-info">
+            <p>This is your profile page. Here's your information:</p>
+            <p><strong>Name:</strong> {{name}}</p>
+            <p><strong>Email:</strong>{{email}}</p>
+            <p>Please complete your profile here <a href="/info/{{id}}"><button>Open Form</button></a></p>
+        </div>
+    </div>
+</body>
+</html>

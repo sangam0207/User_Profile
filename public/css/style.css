@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+}
+
+.navbar {
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    transition: opacity 0.5s ease;
+}
+
+.navbar li {
+    float: left;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.navbar a:hover {
+    color: #555;
+}
+
+.registration-page .navbar {
+    opacity: 0; /* Hide the navbar on the registration page */
+}
+
+.content {
+    text-align: center;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+    background-color: #555;
+}
+
+.registration-page {
+    background-color: #f0f0f0; /* Set the background color for the registration page */
+}
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+.error-page .content {
+    text-align: center;
+}
+
+.error-page h1 {
+    color: red;
+}
+
+.error-page p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.error-page a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.error-page a:hover {
+    background-color: #333;
+    color: white;
+}
+
+
+
+
+.profile-page .navbar {
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.profile-page .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-page .navbar li {
+    margin: 0 20px;
+}
+
+.profile-page .navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.profile-page .navbar a:hover {
+    color: #555;
+}
+
+.content {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.user-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.user-info p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.user-info a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.user-info a:hover {
+    border-bottom-color: #555;
+}
